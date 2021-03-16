@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet"> 
         <title>Toboolist</title>
     </head>
     <body>
@@ -14,7 +14,7 @@
         <header class="width-100 bg-white">
             <div class="width-60">
                 <img class="v-aligned" src="img/logo.png" alt="Toobolist logo">
-                <h1 class="v-aligned" id="logotype">Toobolist</h1>
+                <h1 class="v-aligned" id="logotype">Toboolist</h1>
             </div>
         </header>
         <!-- /header w/ logo -->
@@ -24,28 +24,73 @@
 
             <!-- top bar -->
             <nav class="width-60 bg-white box-white">
-                <span class="button-blue color-white v-aligned">Add Task</span>
-                <span class="button-grey color-grey v-aligned">Add Section</span>
+                <span class="button bg-blue color-white v-aligned no-border">Add Task</span>
+                <span class="button bg-white color-grey v-aligned">Add Section</span>
             </nav>
             <!-- /top bar -->
 
             <!-- main - task section -->
             <main class="width-60 bg-white box-white">
                 <!-- new task section -->
-                <section>
+                <section class="task-section">
                     <h3>&#9660; New Task</h3>
+                    <div class="task">
+                        <span class="task-status color-green">&check;</span>
+                        <span class="v-align">Quarterly Newsletter</span>
+                        <span class="category-badge bg-blue">Editorial</span>
+                    </div>
                 </section>
                 <!-- /new task section -->
 
                 <!-- today's tasks section -->
-                <section>
-
+                <section class="task-section">
+                    <h3>&#9660; Today</h3>
+                    <div class="task">
+                        <span class="task-status color-green">&check;</span>
+                        <span class="v-align">Recruiting blog post</span>
+                        <span class="category-badge bg-blue">Editorial</span>
+                    </div>
+                    <div class="task">
+                        <span class="task-status color-green">&check;</span>
+                        <span class="v-align">Mobile app launch</span>
+                        <span class="category-badge bg-violet">Q1 Goals</span>
+                    </div>
+                    <div class="task">
+                        <span class="task-status color-red">&cross;</span>
+                        <span class="v-align">Interview with John H.</span>
+                        <span class="category-badge bg-green">Recruiting</span>
+                    </div>
+                    <div class="task">
+                        <span class="task-status color-green">&check;</span>
+                        <span class="v-align">Summit update to mobile storefronts</span>
+                        <span class="category-badge bg-orange">Mobile</span>
+                    </div>
                 </section>
                 <!-- /today's tasks section -->
 
                 <!-- upcoming tasks section -->
-                <section>
-
+                <section class="task-section">
+                    <h3>&#9660; Upcoming</h3>
+                    <div class="task">
+                        <span class="task-status color-red">&cross;</span>
+                        <span class="v-align">Schedule meeting with Alex</span>
+                        <span class="category-badge bg-green">Recruiting</span>
+                    </div>
+                    <div class="task">
+                        <span class="task-status color-green">&check;</span>
+                        <span class="v-align">Homepage refresh</span>
+                        <span class="category-badge bg-pink">Website</span>
+                    </div>
+                    <div class="task">
+                        <span class="task-status color-green">&check;</span>
+                        <span class="v-align">Onboard new Sales team members</span>
+                        <span class="category-badge bg-acidgreen">Sales</span>
+                    </div>
+                    <div class="task">
+                        <span class="task-status color-green">&check;</span>
+                        <span class="v-align">Review editorial calendar</span>
+                        <span class="category-badge bg-blue">Editorial</span>
+                    </div>
                 </section>
                 <!-- /upcoming tasks section -->
             </main>
