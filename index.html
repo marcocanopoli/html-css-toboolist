@@ -5,29 +5,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
         <title>Toboolist</title>
     </head>
     <body>
         <!-- header w/ logo -->
-        <header>
-            
+        <header class="width-100 bg-white">
+            <div class="width-60">
+                <img class="v-aligned" src="img/logo.png" alt="Toobolist logo">
+                <h1 class="v-aligned" id="logotype">Toobolist</h1>
+            </div>
         </header>
         <!-- /header w/ logo -->
 
         <!-- main container -->
-        <div class="container">
+        <div class="container width-100 bg-grey">
 
             <!-- top bar -->
-            <section class="topbar">
-                
-            </section>
+            <nav class="width-60 bg-white box-white">
+                <span class="button-blue color-white v-aligned">Add Task</span>
+                <span class="button-grey color-grey v-aligned">Add Section</span>
+            </nav>
             <!-- /top bar -->
 
             <!-- main - task section -->
-            <main>
+            <main class="width-60 bg-white box-white">
                 <!-- new task section -->
                 <section>
-
+                    <h3>&#9660; New Task</h3>
                 </section>
                 <!-- /new task section -->
 
@@ -39,7 +45,7 @@
 
                 <!-- upcoming tasks section -->
                 <section>
-                    
+
                 </section>
                 <!-- /upcoming tasks section -->
             </main>
